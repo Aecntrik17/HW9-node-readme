@@ -14,12 +14,12 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please descriibe your project.",
+    message: "Please describe your project.",
     name: "description",
   },
   {
     type: "input",
-    message: "please outline the installation instructions?",
+    message: "please outline the installation instructions.",
     name: "installation",
   },
   {
@@ -34,7 +34,7 @@ const questions = [
   },
   {
     type: "list",
-    message: "Please choose a license?",
+    message: "Please choose a license.",
     name: "license",
     choices: ["Apache 2.0", "Boost 1.0", "Eclipse 1.0"],
   },
