@@ -1,3 +1,10 @@
+// connect inquirer package
+const inquirer = require("inquirer");
+// connect the generate markdown file
+const generateMarkdown = require("./utils/generateMarkdown");
+// require fs package
+const fs = require("fs");
+
 // array of questions for user
 const questions = [];
 
