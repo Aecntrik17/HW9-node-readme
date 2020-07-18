@@ -21,7 +21,7 @@ The generated README should include the following sections:
 
 ## Usage
 
-User will need to install Inquirer Package.
+User will need to install Inquirer Package. User should answer the question prompts as illustrated in the demo video in the visuals section and the screen shots.
 
 ## Visuals
 
