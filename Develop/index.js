@@ -67,7 +67,13 @@ function writeToFile(data) {
 }
 
 // function to initialize program
-function init() {}
+function start() {
+  // calling the questions and sending the string through generateMarkdown to write file
+  inquirer.prompt(questions).then(function (answers) {
+    generateMarkdown(answers);
+    writeToFile(answers);
+  });
+}
 
 // function call to initialize program
-init();
+start();
